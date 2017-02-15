@@ -1,0 +1,136 @@
+<html>
+
+    <head>
+        <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <script src="codigo.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="col-sm-12 cont">
+                <div class="parametros">
+                    <h3>BISECCION</h3>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-9">
+                                        <h4>Delta</h4>
+                                        <div class="delta">0.00005</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-green">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-9">
+                                        <h4>Intervalo</h4>
+                                        <div class="huge intervalo">[3.2 - 4]</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-yellow">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-9">
+                                        <h4>Adan Sandez</h4>
+                                        <div class="huge">Analisis Numerico</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <!--<div class="panel panel-red">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-9">
+                                        <h4>Intervalo B</h4>
+                                        <div class="huge">4</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+
+                                </div>
+                            </a>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="tabla">
+                    <table class="table table-responsive table-bordered table-striped table-sm">
+                        <thead>
+                        <tr>
+                            <th>A</th>
+                            <th>B</th>
+                            <th>C</th>
+                            <th>F(A)</th>
+                            <th>F(B)</th>
+                            <th>F(C)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <h3>Resultado</h3>
+                    <div class="res">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<style>
+    .cont{
+        margin-top: 20px;
+    }
+    .panel-green{
+        background-color: #5CB85C;
+        color: white;
+    }
+    .panel-red{
+        background-color: #D9534F;
+        color: white;
+    }
+    .panel-yellow{
+        background-color: #F0AD4E;
+        color: white;
+    }
+
+</style>
